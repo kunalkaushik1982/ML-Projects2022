@@ -1,3 +1,4 @@
+from ast import Str
 from operator import truediv
 import string
 from xmlrpc.client import Boolean
@@ -81,3 +82,11 @@ print(c)
 import keyword
 print(keyword.kwlist)
 print(len(keyword.kwlist))
+#/////////////////////////
+#Type Conversion
+print(int(2))
+print(float(2))
+print(bool(1))
+print(complex(9))
+print(list("Hello"))
+
