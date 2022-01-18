@@ -89,4 +89,73 @@ print(float(2))
 print(bool(1))
 print(complex(9))
 print(list("Hello"))
+#////////////////////////////
+#Operators
+#Operators are used to perfrom operations on variables and values
+    # Arithmetic Operators
+    #+,-,*,/,%,**,//
+x=5;y=2
+print(x+y)
+print(x*y)
+print(x-y)
+print(x/y)
+print(x//y)
+print(x%y)
+print(x//y)
+print(x**y)    
+    
+    # Comparision Operators
+    #<,>,<=,>=,==,!=
+print(x>y)
+print(x<y)
+print(x>=y)
+print(x<=y)
+print(x==y)
+print(x!=y)
 
+    # Logical Operators
+    # or,and, not
+x=True
+y=False
+print(x and y)
+print(y or x)
+print(not x)
+print(not y)
+
+    # Bitwise Operators are extensively used in Image Processing 
+    # &,|,>>,<<,~
+    # Assignment Operators
+    # =,+=,-=,*=
+a=3
+a+=3
+print(a)
+b=3
+b*=3
+print(b)
+c=3
+c-=3
+print(c)
+
+    # Identity Operators
+    #Use to find if 2 things are at the same memory location or not
+    # is
+a="Hi"
+b="Hi"
+print( a is b)
+x=[1,2,3]
+y=[1,2,3]
+print(x is y)
+a="Hello-world"
+b="Hello-world"
+print(a is b)
+print(a is not b)
+print('///////////')
+
+    # Membership Operators
+    #in, not in
+    
+x="Delhi"
+print('D' in x)
+ss=[1,3,8]
+print(1 in ss)
+print(7 not in ss)
