@@ -75,3 +75,9 @@ a=b=c=6
 print(a)
 print(b)
 print(c)
+
+#///////////////
+#Keyword
+import keyword
+print(keyword.kwlist)
+print(len(keyword.kwlist))
