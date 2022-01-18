@@ -1,3 +1,4 @@
+from operator import truediv
 import string
 from xmlrpc.client import Boolean
 
@@ -48,3 +49,29 @@ print({1,2,3,4,5})
 
 #Dictionary
 print({"Name":"Kunal","Age":30,"Gender":"Male"})
+
+#//////////////////////////////////
+#Variable
+#Dynamic Typing & Dynamic Binding
+name=4
+print(name)
+name='kuanl'
+print(name)
+name=True
+print(name)
+
+#Special Syntax
+a=4;b=5;c=6
+print(a)
+print(b)
+print(c)
+
+a,b,c=4,5,6
+print(a)
+print(b)
+print(c)
+
+a=b=c=6
+print(a)
+print(b)
+print(c)
