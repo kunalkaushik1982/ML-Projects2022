@@ -1,7 +1,7 @@
 from audioop import reverse
 
 
-var=123121
+var='civic'
 def FindPalindromeNumber(var):
     listofnumber=list(str(var))
     print(listofnumber)
